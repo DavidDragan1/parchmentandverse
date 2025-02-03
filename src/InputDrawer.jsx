@@ -7,9 +7,9 @@ export default function InputDrawer () {
   const [isOpen, setIsOpen] = useState(true);
 
   return (
-    <div className="flex h-screen justify-end">
+    <div className="fixed inset-0 z-40 flex justify-end">
       <div
-        className={`transition-all duration-300 bg-gradient-to-b from-stone-800 via-stone-700 to-stone-900 shadow-xl h-full border-l border-gray-200 ${
+        className={`transition-all duration-300 bg-gradient-to-b from-stone-800 via-stone-700 to-stone-900 shadow-xl h-full border-l border-gray-200 fixed top-0 bottom-0 z-50 ${
           isOpen ? 'w-128' : 'w-4'
         } relative`}
       >
