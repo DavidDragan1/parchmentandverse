@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap" rel="stylesheet">
+    <link href="./src/index.css" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parchment & Verse</title>
+  </head>
+  <body class="pattern-parchment">
+    <header class="p-5 fixed top-0 w-full text-black">
+      <h1 class="text-6xl text-center">
+        Parchment & Verse
+      </h1>
+    </header>
+
+    <!-- where poem renders -->
+    <main>
+      <!-- dynamic jsx -->
+      <div id="root"></div>
+    </main>
+
+    <footer class="bg-none p-2 fixed bottom-0 w-full text-stone-950 text-center">Copyright &copy; <script>document.write(new Date().getFullYear())</script> Parchment & Verse.</footer>
+    
+    <script type="module" src="./src/main.jsx"></script>
+  </body>
+</html>
