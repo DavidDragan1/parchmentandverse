@@ -6,29 +6,31 @@ export default function OutputBox() {
     const [translatedText, setTranslatedText] = useState("");
 
     const placeholder = `
-        Parchment & Verse: The Alchemy of Translation
-        In the sidebar's glow, a poet's hand,
-        Unfurls their verse on digital sand.
-        They choose a tongue, then press submit,
-        And watch the lines transform—yet sit
+        <h1 className="text-xl">Parchment & Verse: The Alchemy of Translation</h1>
 
-        Not bound by chains of word-for-word,
-        But meaning’s breath, the soul conferred.
-        No rigid lattice, syntax tight,
-        But echoes shaped in native light.
+        <p>In the sidebar's glow, a poet's hand,<br>  
+        Unfurls their verse on digital sand.<br>  
+        They choose a tongue, then press <strong>submit</strong>,<br>  
+        And watch the lines transform—yet sit</p>  
 
-        A sonnet sighs in French refrain,
-        Yet keeps its pulse, its tender pain.
-        A haiku bends in whispered breeze,
-        Yet hums the same in Cantonese.
+        <p>Not bound by chains of word-for-word,<br>  
+        But meaning’s breath, the soul conferred.<br>  
+        No rigid lattice, syntax tight,<br>  
+        But echoes shaped in native light.</p>  
 
-        Not just the letters shift and turn,
-        But rhythm, mood, the fires that burn.
-        It weighs intent, the poet’s art,
-        And writes anew—but keeps the heart.
+        <p>A sonnet sighs in French refrain,<br>  
+        Yet keeps its pulse, its tender pain.<br>  
+        A haiku bends in whispered breeze,<br>  
+        Yet hums the same in Cantonese.</p>  
 
-        Thus Parchment & Verse lets voices roam,
-        Yet every tongue still calls it home.
+        <p>Not just the letters shift and turn,<br>  
+        But <strong>rhythm</strong>, <strong>mood</strong>, the <strong>fires that burn</strong>.<br>  
+        It weighs intent, the poet’s art,<br>  
+        And writes anew—but keeps the heart.</p>  
+
+        <p>Thus <em>Parchment & Verse</em> lets voices roam,<br>  
+        Yet every tongue still calls it home.</p>  
+
     `
 
     useEffect(() => {
