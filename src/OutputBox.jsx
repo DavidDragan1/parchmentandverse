@@ -41,7 +41,7 @@ export default function OutputBox() {
     }, [searchParams]); // This triggers the effect when URL params change
 
     return (
-        <div className="min-h-full">
+        <div className="min-h-screen p-5">
             <h2 className="text-md text-thin">Translated Poem:</h2><br/>
             <div dangerouslySetInnerHTML={{ __html: translatedText || placeholder }} />
         </div>
